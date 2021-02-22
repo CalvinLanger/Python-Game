@@ -1,8 +1,9 @@
+#Made by Calvin Langer
 
-
-print("Welcome to simple game writing in Python Language!")
+print("Welcome to simple game writing in Python Language!\n")
 
 name = input("What is your name?\n")
+
 age = int(input("What your age?\n"))
 
 if age >= 18:
