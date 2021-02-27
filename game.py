@@ -38,7 +38,7 @@ if barrel == "Move the barrel":
                     print("Congratulations, you're heading to a new world.")
                     print("Do you want to play again?") #Add function to start on beggining!
                 else:
-                print("You die on the beach...")
+                print("You died on the beach...")
     
         elif secret_tunnel == "Read them":
             print("It is too dark to read the note. What do you do? \n") #Add function back to the hand_note statment
@@ -51,11 +51,11 @@ if barrel == "Move the barrel":
                 print("That's over... You prove it, your heart is big...")
 
         else:
-            print("You die...")
+            print("You died...")
     else:
-        print("You die...")
+        print("You died...")
 else:
-    print("You die...")
+    print("You died...")
 
 
 
