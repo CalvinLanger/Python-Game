@@ -27,7 +27,7 @@ if barrel == "Move the barrel":
     if secret_tunnel == "Enter tunnel":
         print("You start to escape but your friend is too weak to go with you")
         
-        hand_note = str(input("They hand you a note. What do you do? \nLeave / Read them / Light \n"))
+        hand_note = str(input("They hand you a note. What do you do? \nLeave / Read them \n"))
         if hand_note == "Leave":
             print("You crawl through the tunnel and the tunnel leads you to a beach")
 
@@ -40,13 +40,13 @@ if barrel == "Move the barrel":
                     print("Congratulations, you're heading to a new world.")
                     print("Do you want to play again?")
 
-                    #Back to beggning funkction ---
+                                #Start new game
                     to_the_beggining = str(input("Yes / No \n"))
                     if to_the_beggining == "Yes":
                         print("Start new game!")
-                else:
-                    print("You died on the beach...")
-    
+                    else:
+                        print("You died on the beach...")
+
         elif hand_note == "Read them":
             print("It is too dark to read the note.")
 
@@ -58,9 +58,9 @@ if barrel == "Move the barrel":
                 if stay == "Stay":
                     print("That's over... You prove it, your heart is big...")  
                 else:
-                    leave
+                    leave #back to the hand note with egual "Leave"
             else: 
-                leave
+                leave #back to the hand note with egual "Leave"
         else:
             print("You died...")
     else:
